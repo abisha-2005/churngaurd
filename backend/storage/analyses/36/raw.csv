@@ -1,0 +1,51 @@
+purchase_date,customer_id,name,email,phone,age,gender,city,preferred_category,tenure_months,monthly_spend,order_count,total_spent,login_frequency,support_tickets,last_purchase_days,nps_score,avg_order_value,wishlist_count,tier,churn_risk,last_purchase_date,days_since_last_purchase
+2023-01-10,CUST854984,Ananya Iyer,customer2@nova.example.com,9921728109,55,Male,Delhi,Sports,17,4517.4,13,27316.28,12,7,220,8,4231.0,3,Bronze,Medium Risk,2025-12-19,220
+2023-01-20,CUST620915,Tarun Singh,customer49@nova.example.com,9872737678,40,Female,Pune,Beauty,13,817.87,17,39282.63,1,4,296,2,4026.2,19,Silver,Medium Risk,2025-10-04,296
+2023-01-22,CUST456538,Rakesh Kumar,customer31@nova.example.com,9769096482,50,Male,Hyderabad,Books,27,3432.39,21,25741.4,23,10,296,9,2861.16,18,Gold,Medium Risk,2025-10-04,296
+2023-02-01,CUST465976,Anjali Sharma,customer40@nova.example.com,9323767790,37,Male,Bengaluru,Fashion,45,4467.13,5,5428.53,6,7,495,5,4942.24,17,Platinum,High Risk,2025-03-19,495
+2023-03-09,CUST556055,Reshma George,customer46@nova.example.com,9520493055,18,Male,Pune,Beauty,8,525.45,15,22528.15,1,4,67,0,1252.59,2,Platinum,Medium Risk,2026-05-21,67
+2023-07-10,CUST620986,Riya Mukherjee,customer24@nova.example.com,9386987120,46,Female,Chennai,Books,42,2547.31,19,41527.68,11,3,480,5,3733.01,7,Gold,Medium Risk,2025-04-03,480
+2023-08-04,CUST854958,Divya Suresh,customer28@nova.example.com,9354577267,37,Male,Trichy,Beauty,20,4068.69,16,7508.39,12,0,581,7,2664.93,8,Bronze,Medium Risk,2024-12-23,581
+2023-08-11,CUST654841,Sanjay Gupta,customer17@nova.example.com,9258626220,30,Male,Kochi,Electronics,21,2988.23,9,26455.47,11,3,375,0,3537.47,14,Gold,Medium Risk,2025-07-17,375
+2023-08-21,CUST830926,Deepika Patel,customer42@nova.example.com,9881499110,22,Female,Trichy,Home & Kitchen,31,4732.66,11,9980.29,16,7,378,0,2941.71,4,Gold,Medium Risk,2025-07-14,378
+2023-08-29,CUST618285,Aditya Verma,customer11@nova.example.com,9523794966,47,Male,Madurai,Electronics,60,3916.29,5,45098.33,28,10,658,4,885.72,8,Bronze,High Risk,2024-10-07,658
+2023-10-02,CUST456200,Tanvi Kulkarni,customer26@nova.example.com,9407214053,44,Female,Chennai,Sports,14,2794.25,21,17157.34,20,6,116,2,4204.82,6,Bronze,Medium Risk,2026-04-02,116
+2023-10-03,CUST552825,Kavya Krishnan,customer14@nova.example.com,9780831072,53,Male,Trichy,Books,3,335.86,28,46470.01,2,2,406,4,2321.5,9,Platinum,Medium Risk,2025-06-16,406
+2023-10-05,CUST521480,Aarav Sharma,customer1@nova.example.com,9163315605,24,Male,Hyderabad,Home & Kitchen,28,2148.54,11,17987.29,13,9,421,9,1776.73,16,Silver,Medium Risk,2025-06-01,421
+2023-10-27,CUST951501,Pranav Menon,customer39@nova.example.com,9885945652,47,Male,Delhi,Fashion,44,3805.15,27,41029.5,5,8,310,9,541.07,10,Silver,Medium Risk,2025-09-20,310
+2023-10-28,CUST522415,Vivek Anand,customer35@nova.example.com,9481934024,59,Female,Bengaluru,Electronics,25,2391.48,14,39540.26,9,5,245,7,3184.35,9,Platinum,Medium Risk,2025-11-24,245
+2023-11-05,CUST829919,Manish Yadav,customer21@nova.example.com,9369531044,27,Male,Bengaluru,Books,42,2075.65,27,47919.4,9,10,533,7,2444.41,14,Gold,Medium Risk,2025-02-09,533
+2023-11-10,CUST593033,Maya Thomas,customer38@nova.example.com,9573548098,40,Female,Delhi,Sports,25,1889.16,23,48990.73,6,0,7,0,4908.22,13,Bronze,Medium Risk,2026-07-20,7
+2023-11-14,CUST353129,Sneha Kapoor,customer12@nova.example.com,9105301029,28,Male,Pune,Sports,19,3883.82,13,2845.12,24,7,111,0,1927.93,17,Silver,Medium Risk,2026-04-07,111
+2023-11-18,CUST577825,Sakshi Mehta,customer48@nova.example.com,9124616466,48,Male,Madurai,Fashion,49,1516.21,24,23402.16,12,7,573,3,379.53,16,Gold,Medium Risk,2024-12-31,573
+2023-12-09,CUST467731,Aman Gupta,customer47@nova.example.com,9485925627,37,Male,Trichy,Electronics,10,4859.11,17,13494.34,27,2,306,0,4412.53,7,Bronze,Medium Risk,2025-09-24,306
+2023-12-18,CUST944094,Nandini Rao,customer30@nova.example.com,9689756658,25,Male,Kochi,Books,51,4468.59,6,35715.91,13,4,288,4,1945.83,19,Gold,Medium Risk,2025-10-12,288
+2024-02-26,CUST493695,Abhishek Mishra,customer29@nova.example.com,9818959237,41,Female,Pune,Sports,43,1094.62,19,8580.28,18,4,223,10,3195.88,20,Platinum,Low Risk,2025-12-16,223
+2024-03-15,CUST499634,Aditi Desai,customer20@nova.example.com,9373924986,37,Male,Pune,Books,27,1540.08,15,34686.93,14,5,259,9,1649.05,7,Gold,Medium Risk,2025-11-10,259
+2024-06-09,CUST120011,Gaurav Choudhary,customer33@nova.example.com,9606113446,30,Male,Delhi,Beauty,55,1207.25,22,26423.44,23,3,671,7,4938.39,8,Gold,Medium Risk,2024-09-24,671
+2024-06-25,CUST102862,Vikram Singh,customer7@nova.example.com,9769491195,58,Female,Delhi,Electronics,17,4330.56,15,10829.07,15,4,638,4,4205.16,7,Gold,Medium Risk,2024-10-27,638
+2024-07-18,CUST567203,Yash Thakur,customer45@nova.example.com,9603324708,24,Male,Delhi,Sports,58,3585.83,9,3066.09,15,3,73,6,4914.53,8,Gold,Medium Risk,2026-05-15,73
+2024-07-24,CUST169191,Pooja Joshi,customer16@nova.example.com,9169818372,34,Male,Pune,Sports,31,935.98,18,28695.24,1,3,553,6,4506.79,20,Silver,Medium Risk,2025-01-20,553
+2024-07-25,CUST331805,Rohan Mehta,customer5@nova.example.com,9649130344,45,Female,Madurai,Home & Kitchen,11,3544.37,28,8093.9,26,7,701,3,3842.89,20,Gold,Medium Risk,2024-08-25,701
+2024-10-09,CUST851591,Nikhil Shah,customer15@nova.example.com,9962520918,49,Female,Bengaluru,Sports,28,709.27,6,33399.12,13,0,691,7,3341.14,2,Bronze,Medium Risk,2024-09-04,691
+2024-10-16,CUST609479,Harish Pillai,customer27@nova.example.com,9830900898,44,Male,Chennai,Books,9,1914.48,27,34151.02,12,4,455,7,1254.93,19,Silver,Medium Risk,2025-04-28,455
+2024-11-01,CUST537076,Mohit Arora,customer43@nova.example.com,9127265195,24,Male,Kochi,Electronics,28,580.34,14,17150.54,8,7,270,9,1846.78,20,Gold,Medium Risk,2025-10-30,270
+2025-01-15,CUST442960,Karthik Reddy,customer9@nova.example.com,9486847287,29,Male,Hyderabad,Home & Kitchen,52,2896.04,1,19557.09,8,6,576,7,1178.6,3,Silver,High Risk,2024-12-28,576
+2025-01-28,CUST579900,Swati Saxena,customer34@nova.example.com,9152007620,36,Female,Pune,Beauty,50,1317.18,30,47053.15,30,8,366,6,3467.58,17,Gold,Medium Risk,2025-07-26,366
+2025-03-21,CUST661201,Rohit Bansal,customer37@nova.example.com,9236384877,41,Female,Trichy,Fashion,2,390.69,9,14934.87,10,5,457,9,2259.3,6,Platinum,Medium Risk,2025-04-26,457
+2025-05-07,CUST339475,Varun Malhotra,customer19@nova.example.com,9869806790,28,Female,Hyderabad,Electronics,22,507.82,3,4993.72,3,1,67,1,2121.12,2,Gold,Medium Risk,2026-05-21,67
+2025-08-10,CUST486386,Meera Nair,customer8@nova.example.com,9184860857,58,Male,Pune,Sports,57,717.35,12,46635.23,15,1,708,5,3353.17,16,Bronze,Medium Risk,2024-08-18,708
+2025-09-29,CUST473571,Keerthi Nair,customer36@nova.example.com,9365090070,23,Male,Pune,Electronics,38,914.03,16,45006.61,10,9,684,8,4679.28,12,Silver,High Risk,2024-09-11,684
+2025-10-11,CUST782928,Akash Roy,customer25@nova.example.com,9391739556,32,Female,Pune,Beauty,20,4163.49,14,41611.09,3,1,23,9,2394.56,19,Silver,Low Risk,2026-07-04,23
+2025-10-25,CUST325238,Vaishnavi Das,customer44@nova.example.com,9628887408,40,Male,Coimbatore,Beauty,33,575.8,1,11362.17,20,3,238,7,1095.12,10,Gold,Medium Risk,2025-12-01,238
+2025-10-29,CUST172150,Neha Agarwal,customer18@nova.example.com,9540989233,47,Male,Bengaluru,Sports,41,2268.02,3,4629.11,3,10,465,1,551.08,5,Platinum,High Risk,2025-04-18,465
+2025-11-08,CUST626887,Priya Menon,customer10@nova.example.com,9281523177,50,Male,Hyderabad,Sports,46,4079.98,5,16527.12,4,6,689,1,2632.34,13,Platinum,High Risk,2024-09-06,689
+2025-11-21,CUST491793,Suresh Iyer,customer41@nova.example.com,9261214081,47,Male,Mumbai,Fashion,60,1319.99,12,4811.79,22,9,677,3,3626.49,4,Platinum,High Risk,2024-09-18,677
+2025-12-14,CUST549537,Siddharth Jain,customer23@nova.example.com,9270957419,33,Male,Bengaluru,Beauty,45,3827.55,21,550.41,22,8,693,9,1780.21,3,Silver,Medium Risk,2024-09-02,693
+2026-01-02,CUST973738,Harini Kumar,customer50@nova.example.com,9160953395,55,Male,Chennai,Sports,38,3888.58,2,16427.75,6,10,102,8,4360.96,1,Gold,Medium Risk,2026-04-16,102
+2026-02-07,CUST336019,Diya Patel,customer4@nova.example.com,9441528173,37,Male,Bengaluru,Sports,2,2649.02,8,39065.4,15,3,334,3,4934.61,20,Bronze,Medium Risk,2025-08-27,334
+2026-02-18,CUST441797,Ishita Rao,customer6@nova.example.com,9204039059,42,Female,Coimbatore,Fashion,7,3212.57,16,36162.86,16,3,585,1,555.92,13,Silver,Medium Risk,2024-12-19,585
+2026-03-16,CUST484568,Rahul Das,customer13@nova.example.com,9899781989,24,Female,Madurai,Fashion,23,4909.76,3,48892.93,23,1,509,5,3749.46,20,Gold,Medium Risk,2025-03-05,509
+2026-04-09,CUST489720,Lavanya Reddy,customer32@nova.example.com,9305833108,48,Female,Kochi,Electronics,5,4776.21,4,29651.82,27,9,181,0,1554.02,1,Gold,Medium Risk,2026-01-27,181
+2026-07-12,CUST214921,Arjun Kumar,customer3@nova.example.com,9539545447,33,Male,Trichy,Books,19,4868.05,13,19411.87,2,8,560,3,3053.1,5,Silver,High Risk,2025-01-13,560
+2026-07-18,CUST403099,Shreya Bhat,customer22@nova.example.com,9101361007,44,Male,Madurai,Books,42,2628.18,22,25757.34,30,3,314,1,4494.55,6,Bronze,Medium Risk,2025-09-16,314

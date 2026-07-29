@@ -1,0 +1,31 @@
+customer_id,name,mobile_number,email,tenure_months,monthly_charges,total_charges,contract_type,internet_service,support_calls,payment_delay_days,churn
+CUST3000,Sneha Reddy,9174186760,it264002@saranathan.ac.in,47,49.58,2485.48,Month-to-month,DSL,1,1,Yes
+CUST3001,Suresh Kumar,9567676730,suresh.kumar28@example.com,25,42.67,1046.53,One year,DSL,2,1,No
+CUST3002,Manoj Reddy,9844414642,manoj.reddy34@example.com,66,107.81,7373.31,Month-to-month,Fiber optic,0,2,No
+CUST3003,Divya Prasad,9265120615,divya.prasad33@example.com,42,61.21,2315.54,Month-to-month,DSL,1,1,No
+CUST3004,Swathi Reddy,9452793566,swathi.reddy32@example.com,2,32.87,63.75,One year,Fiber optic,4,1,No
+CUST3005,Naveen Sharma,9691225624,naveen.sharma67@example.com,62,108.53,6139.95,One year,Fiber optic,1,0,No
+CUST3006,Manoj Murugan,9223684121,manoj.murugan87@example.com,26,41.81,1090.95,Two year,Fiber optic,2,2,No
+CUST3007,Vijay Murugan,9954100606,vijay.murugan75@example.com,36,81.39,3177.3,Month-to-month,Fiber optic,1,0,No
+CUST3008,Prakash Reddy,9235250539,prakash.reddy94@example.com,11,64.27,752.65,One year,No,0,1,No
+CUST3009,Sneha Iyer,9977849664,sneha.iyer90@example.com,69,95.32,6499.59,Month-to-month,DSL,1,0,No
+CUST3010,Vijay Iyer,9340153820,it264003@saranathan.ac.in,29,65.75,1733.48,Month-to-month,DSL,2,0,Yes
+CUST3011,Ashok Nair,9652787150,ashok.nair68@example.com,17,23.66,436.45,One year,No,0,3,No
+CUST3012,Ashok Reddy,9401010223,ashok.reddy2@example.com,35,86.07,2795.34,Two year,No,1,0,No
+CUST3013,Prakash Prasad,9518286503,prakash.prasad66@example.com,42,54.5,2301.71,Month-to-month,No,2,1,No
+CUST3014,Manoj Iyer,9699855109,it264004@saranathan.ac.in,1,97.37,106.87,Month-to-month,DSL,2,1,Yes
+CUST3015,Meena Kumar,9749813522,meena.kumar34@example.com,57,86.57,5111.83,One year,No,1,2,No
+CUST3016,Divya Kumar,9230710823,divya.kumar50@example.com,31,61.87,1981.24,One year,No,2,2,No
+CUST3017,Priya Kumar,9516235262,it264012@saranathan.ac.in,2,83.92,156.57,Month-to-month,Fiber optic,2,2,Yes
+CUST3018,Ashok Nair,9488513120,ashok.nair12@example.com,66,55.5,3465.47,Month-to-month,Fiber optic,4,0,No
+CUST3019,Sneha Kumar,9111813508,sneha.kumar12@example.com,37,62.55,2177.32,Month-to-month,DSL,2,0,Yes
+CUST3020,Lakshmi Kumar,9685266850,lakshmi.kumar78@example.com,62,116.32,6662.44,Month-to-month,Fiber optic,2,0,No
+CUST3021,Meena Iyer,9679939378,meena.iyer56@example.com,54,59.3,3302.62,One year,No,1,2,No
+CUST3022,Anitha Sharma,9433897568,anitha.sharma37@example.com,1,51.75,48.32,Month-to-month,Fiber optic,2,1,Yes
+CUST3023,Divya Murugan,9685298745,divya.murugan87@example.com,4,58.7,222.56,Month-to-month,DSL,2,0,Yes
+CUST3024,Prakash Nair,9334546683,prakash.nair82@example.com,8,98.59,863.65,Month-to-month,DSL,1,0,Yes
+CUST3025,Arun Kumar,9834215025,arun.kumar74@example.com,33,51.08,1623.99,Month-to-month,Fiber optic,4,0,Yes
+CUST3026,Manoj Sharma,9303808400,manoj.sharma30@example.com,54,117.48,6116.07,Month-to-month,DSL,1,1,No
+CUST3027,Deepa Iyer,9317072867,deepa.iyer4@example.com,11,70.32,766.32,Month-to-month,DSL,2,2,No
+CUST3028,Karthik Sharma,9811648769,karthik.sharma95@example.com,24,116.14,3022.88,Month-to-month,DSL,3,1,No
+CUST3029,Kavya Raj,9951626291,kavya.raj39@example.com,44,70.16,2992.81,One year,DSL,1,1,No

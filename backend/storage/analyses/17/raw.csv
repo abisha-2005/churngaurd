@@ -1,0 +1,51 @@
+CustomerID,Gender,SeniorCitizen,Partner,Dependents,Tenure,PhoneService,InternetService,Contract,MonthlyCharges,TotalCharges,Churn,Name
+CUST100001,Female,0,No,No,5,Yes,DSL,One year,117.19,542.61,No,Aarav Sharma
+CUST100002,Male,0,No,Yes,66,Yes,Fiber optic,Month-to-month,60.97,4267.59,No,Ananya Iyer
+CUST100003,Male,0,Yes,No,26,Yes,No,Month-to-month,81.62,2047.25,No,Arjun Kumar
+CUST100004,Female,0,Yes,No,23,Yes,Fiber optic,Month-to-month,136.08,2949.98,Yes,Diya Patel
+CUST100005,Male,0,Yes,No,4,Yes,No,Month-to-month,126.16,513.87,Yes,Rohan Mehta
+CUST100006,Male,0,No,Yes,43,Yes,DSL,One year,60.3,2347.7,No,Ishita Rao
+CUST100007,Male,1,Yes,No,21,Yes,DSL,Month-to-month,134.63,2811.92,Yes,Vikram Singh
+CUST100008,Male,0,Yes,No,18,Yes,No,Month-to-month,71.83,1273.87,No,Meera Nair
+CUST100009,Female,0,Yes,No,49,No,Fiber optic,One year,108.71,4840.62,No,Karthik Reddy
+CUST100010,Male,0,Yes,No,49,Yes,Fiber optic,Two year,112.5,5392.07,No,Priya Menon
+CUST100011,Female,1,No,No,11,Yes,Fiber optic,Two year,72.22,758.58,No,Aditya Verma
+CUST100012,Female,0,Yes,No,10,Yes,DSL,One year,127.52,1204.75,No,Sneha Kapoor
+CUST100013,Female,0,Yes,No,18,Yes,Fiber optic,Two year,80.5,1546.74,No,Rahul Das
+CUST100014,Female,1,No,Yes,57,Yes,Fiber optic,Month-to-month,144.89,8322.27,Yes,Kavya Krishnan
+CUST100015,Female,0,Yes,No,20,Yes,Fiber optic,One year,141.77,2630.54,No,Nikhil Shah
+CUST100016,Male,0,Yes,Yes,31,Yes,Fiber optic,Month-to-month,137.03,4402.06,Yes,Pooja Joshi
+CUST100017,Female,0,Yes,Yes,10,Yes,No,Month-to-month,138.09,1334.67,Yes,Sanjay Gupta
+CUST100018,Female,0,Yes,No,14,Yes,No,Two year,39.12,551.95,No,Neha Agarwal
+CUST100019,Male,0,Yes,Yes,48,Yes,Fiber optic,Month-to-month,104.28,4847.21,Yes,Varun Malhotra
+CUST100020,Male,0,Yes,No,55,Yes,DSL,One year,116.34,6494.29,No,Aditi Desai
+CUST100021,Male,0,No,No,63,Yes,DSL,Month-to-month,88.74,5717.8,No,Manish Yadav
+CUST100022,Female,0,No,No,40,No,Fiber optic,Month-to-month,88.8,3378.08,Yes,Shreya Bhat
+CUST100023,Female,0,No,No,20,Yes,DSL,Month-to-month,46.19,969.61,No,Siddharth Jain
+CUST100024,Female,0,Yes,No,32,Yes,DSL,Month-to-month,40.9,1323.54,No,Riya Mukherjee
+CUST100025,Male,0,No,No,12,Yes,DSL,One year,121.81,1474.8,No,Akash Roy
+CUST100026,Female,0,No,Yes,18,Yes,No,One year,39.45,666.96,No,Tanvi Kulkarni
+CUST100027,Female,0,Yes,No,35,Yes,DSL,Month-to-month,114.67,3795.57,Yes,Harish Pillai
+CUST100028,Female,0,No,No,57,Yes,DSL,Month-to-month,30.02,1661.8,No,Divya Suresh
+CUST100029,Male,0,No,No,19,Yes,No,Month-to-month,73.59,1266.91,No,Abhishek Mishra
+CUST100030,Female,0,No,No,27,Yes,Fiber optic,Month-to-month,23.12,567.97,Yes,Nandini Rao
+CUST100031,Female,0,Yes,No,3,Yes,Fiber optic,Month-to-month,105.85,323.67,Yes,Rakesh Kumar
+CUST100032,Female,0,No,No,4,Yes,Fiber optic,One year,58.08,222.32,No,Lavanya Reddy
+CUST100033,Female,0,Yes,No,40,Yes,No,Month-to-month,80.8,3327.81,No,Gaurav Choudhary
+CUST100034,Male,0,Yes,No,70,Yes,No,Month-to-month,57.24,3660.09,No,Swati Saxena
+CUST100035,Male,0,Yes,Yes,42,Yes,Fiber optic,Month-to-month,87.05,3777.57,No,Vivek Anand
+CUST100036,Male,0,No,No,3,Yes,No,Month-to-month,105.49,297.02,Yes,Keerthi Nair
+CUST100037,Male,0,Yes,No,42,Yes,Fiber optic,Two year,41.7,1850.39,No,Rohit Bansal
+CUST100038,Male,0,No,No,9,Yes,Fiber optic,Month-to-month,121.02,1157.99,Yes,Maya Thomas
+CUST100039,Male,0,No,No,50,Yes,Fiber optic,Two year,121.73,6233.04,No,Pranav Menon
+CUST100040,Male,1,No,No,34,Yes,Fiber optic,Two year,142.48,4703.7,No,Anjali Sharma
+CUST100041,Female,1,Yes,No,27,Yes,DSL,Month-to-month,69.49,1697.27,Yes,Suresh Iyer
+CUST100042,Female,0,No,No,15,Yes,Fiber optic,Month-to-month,133.51,2076.75,Yes,Deepika Patel
+CUST100043,Male,0,Yes,Yes,13,No,DSL,Month-to-month,32.18,418.89,Yes,Mohit Arora
+CUST100044,Male,0,No,No,25,Yes,No,Month-to-month,149.21,3412.48,Yes,Vaishnavi Das
+CUST100045,Male,0,No,No,33,Yes,Fiber optic,Month-to-month,47.59,1574.76,Yes,Yash Thakur
+CUST100046,Female,0,No,Yes,41,Yes,DSL,Two year,68.6,2534.46,No,Reshma George
+CUST100047,Female,0,No,Yes,50,Yes,No,Two year,32.16,1577.85,No,Aman Gupta
+CUST100048,Male,0,Yes,No,69,Yes,No,Month-to-month,128.57,8963.47,No,Sakshi Mehta
+CUST100049,Male,1,No,Yes,3,Yes,Fiber optic,One year,83.17,260.61,No,Tarun Singh
+CUST100050,Male,1,No,No,68,Yes,Fiber optic,Month-to-month,145.11,9396.89,Yes,Harini Kumar

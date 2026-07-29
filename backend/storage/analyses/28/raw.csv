@@ -1,0 +1,21 @@
+CustomerID,Gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,InternetService,Contract,MonthlyCharges,TotalCharges,Churn,Name,Email,Phone
+C001,Male,0,Yes,No,12,Yes,DSL,Month-to-month,65.50,786.00,No,John Smith,john.smith@email.com,9876543210
+C002,Female,0,No,No,3,Yes,Fiber optic,Month-to-month,89.99,269.97,Yes,Priya Sharma,priya.sharma@email.com,9123456780
+C003,Male,1,Yes,No,45,Yes,DSL,One year,55.00,2475.00,No,Ravi Kumar,ravi.kumar@email.com,9988776655
+C004,Female,0,Yes,Yes,60,No,No,Two year,20.00,1200.00,No,Anita Patel,anita.patel@email.com,9871234560
+C005,Male,0,No,No,2,Yes,Fiber optic,Month-to-month,95.50,191.00,Yes,David Lee,david.lee@email.com,9001234567
+C006,Female,1,No,No,1,Yes,Fiber optic,Month-to-month,99.00,99.00,Yes,Sara Wilson,sara.wilson@email.com,9112233445
+C007,Male,0,Yes,Yes,24,Yes,DSL,One year,60.00,1440.00,No,Arjun Nair,arjun.nair@email.com,9345678901
+C008,Female,0,No,No,5,Yes,Fiber optic,Month-to-month,85.00,425.00,Yes,Emily Chen,emily.chen@email.com,9456789012
+C009,Male,1,Yes,No,36,Yes,DSL,Two year,50.00,1800.00,No,Michael Brown,michael.brown@email.com,9567890123
+C010,Female,0,No,Yes,8,No,DSL,Month-to-month,40.00,320.00,Yes,Kavya Reddy,kavya.reddy@email.com,9678901234
+C011,Male,0,Yes,No,72,Yes,No,Two year,25.00,1800.00,No,James Taylor,james.taylor@email.com,9789012345
+C012,Female,1,No,No,4,Yes,Fiber optic,Month-to-month,100.00,400.00,Yes,Deepa Menon,deepa.menon@email.com,9890123456
+C013,Male,0,No,No,6,Yes,DSL,Month-to-month,55.00,330.00,Yes,Chris Martin,chris.martin@email.com,9901234567
+C014,Female,0,Yes,Yes,48,Yes,DSL,One year,58.00,2784.00,No,Sunita Joshi,sunita.joshi@email.com,9012345678
+C015,Male,1,No,No,2,Yes,Fiber optic,Month-to-month,92.00,184.00,Yes,Robert Davis,robert.davis@email.com,9123456789
+C016,Female,0,Yes,No,30,Yes,Fiber optic,One year,80.00,2400.00,No,Meena Iyer,meena.iyer@email.com,9234567890
+C017,Male,0,No,No,1,Yes,Fiber optic,Month-to-month,97.00,97.00,Yes,Kevin White,kevin.white@email.com,9345678902
+C018,Female,0,Yes,Yes,55,No,No,Two year,18.00,990.00,No,Lakshmi Das,lakshmi.das@email.com,9456789013
+C019,Male,1,No,No,3,Yes,Fiber optic,Month-to-month,88.00,264.00,Yes,Daniel Harris,daniel.harris@email.com,9567890124
+C020,Female,0,Yes,No,20,Yes,DSL,Month-to-month,62.00,1240.00,No,Pooja Verma,pooja.verma@email.com,9678901235
