@@ -1,81 +1,61 @@
-# ChurnGuard — Full-Stack (FastAPI + React)
+# ChurnGuard
 
-This wraps your existing `src/` pipeline (schema mapping, RFM features, XGBoost model,
-SHAP explainability, SMS/Email alerts, AI Strategy Advisor, PDF report) behind a
-FastAPI backend with authentication, and a React dashboard matching the ChurnGuard
-UI you showed.
+ChurnGuard is an AI-powered Customer Behavior and Retention Prediction System. It helps businesses identify customers who are likely to churn, understand *why* they're at risk, and automatically take retention action — before it's too late.
 
-## What's new vs the Streamlit app
+## Problem Statement
 
-- **Authentication**: signup/login with JWT, SQLite `users` table (bcrypt-hashed passwords).
-- **Multi-user history**: every upload becomes a saved "analysis" tied to your account,
-  listed on the Dashboard (`analyses` table in SQLite).
-- **Model Comparison**: `backend/src/model_comparison.py` is new — trains Logistic
-  Regression, Random Forest, Gradient Boosting, and XGBoost side by side on the same
-  RFM features and reports Accuracy/Precision/Recall/AUC for each, plus a
-  "Top Churn Drivers" feature-importance panel. Your original `churn_model.py`
-  (single XGBoost) is untouched and still used for the main risk scoring.
-- Everything else (`schema_mapper.py`, `feature_engineering.py`, `explainability.py`,
-  `notifier.py`, `ai_advisor.py`, `report_generator.py`) is your existing code, unmodified.
+Businesses often lose customers without knowing they were at risk until it's too late. ChurnGuard solves this by predicting churn in advance, explaining the reasoning behind each prediction, and triggering automated retention actions.
 
-## 1. Backend setup
+## Features
 
+- **Secure Authentication** – JWT-based login system
+- **Dataset Upload** – Upload customer data as CSV
+- **Smart Column Mapping** – Auto-detects and lets users confirm column mapping to required fields (customer ID, recency, frequency, monetary value, etc.)
+- **Data Preprocessing** – Handles missing values and engineers RFM (Recency, Frequency, Monetary) features
+- **Churn Prediction** – ML models (Logistic Regression, Random Forest, Gradient Boosting, XGBoost) predict churn probability
+- **Explainability** – SHAP values explain *why* a customer is predicted to churn
+- **Dashboard & Reports** – Visual dashboard with churn insights + downloadable PDF reports
+- **Automated Retention Actions** – SMS (Twilio) and email (Gmail SMTP) alerts sent to at-risk customers
+- **AI Retention Advisor** – Gemini API (with local Ollama fallback) generates personalized retention recommendations
+
+## Tech Stack
+
+- **Backend:** FastAPI, Python
+- **Frontend:** React (Vite)
+- **Database:** SQLite
+- **ML:** scikit-learn, XGBoost, SHAP
+- **Notifications:** Twilio (SMS), Gmail SMTP (Email)
+- **AI Advisor:** Gemini API / Ollama (local fallback)
+
+## Workflow
+
+1. **Login** – User logs in via JWT-secured authentication
+2. **Upload Dataset** – User uploads a CSV file
+3. **Column Mapping** – System detects columns; user confirms mapping to required fields
+4. **Preprocessing** – Missing values handled; RFM features engineered
+5. **Prediction** – ML model predicts churn probability per customer
+6. **Explainability** – SHAP explains the reasoning behind each prediction
+7. **Dashboard & Report** – Results visualized; PDF report generated
+8. **Notification & Action** – At-risk customers get automated SMS/email alerts with AI-driven retention recommendations
+
+## Getting Started
+
+### Backend
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate          # Windows
-# source venv/bin/activate     # macOS/Linux
-
+venv\Scripts\activate   # Windows
 pip install -r requirements.txt
-copy .env.example .env          # Windows: copy, macOS/Linux: cp
-```
-
-Edit `.env` and fill in `GEMINI_API_KEY`, Twilio, and Gmail credentials (same values
-you were already using with Streamlit). Set `JWT_SECRET` to any random string.
-
-Run the API:
-
-```bash
 uvicorn main:app --reload --port 8000
 ```
 
-The first run creates `backend/storage/app.db` (SQLite) automatically — no manual
-migration needed.
-
-## 2. Frontend setup
-
+### Frontend
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-Opens at `http://localhost:5173`. The Vite dev server proxies `/api/*` to
-`http://localhost:8000` (see `vite.config.js`), so no CORS setup needed locally.
+## License
 
-## 3. Using it
-
-1. Open `http://localhost:5173` → Create Account (business name, email, password).
-2. Dashboard → **New Analysis** → drop a CSV → **Start Analysis**.
-   This runs the full pipeline in one click: AI column mapping → RFM features →
-   train + compare 4 models → SHAP risk explanations → lands on the Results page.
-   (Tick "Review & override AI column mapping" first if you want to correct any
-   column guess before it trains — same override the Streamlit app offered.)
-3. Results page: stats, risk/segment charts, top churn drivers, model comparison,
-   searchable customer table with per-customer **Send** (SMS/email), a **SMS Campaign**
-   button to alert every High Risk customer at once, the **AI Strategy Advisor** chat,
-   and **Download Report (PDF)**.
-4. **SMS Logs** page: paste an analysis ID to see its notification history.
-
-## Notes / known limits (carried over from the Streamlit version)
-
-- Twilio trial accounts can only deliver real SMS to a verified number — enter yours
-  in the "Twilio-verified test number" field on the Results page; the demo data's own
-  phone numbers are kept for display/logging only.
-- Training requires a churn/target column in your CSV (mapped to "other" and named
-  something like `Churn`, `Churned`, `is_churn`, or `target`) — same requirement as before.
-- The notification log (SMS Logs page) is currently global across all your analyses,
-  same as the original Streamlit app's single SQLite log — not yet filtered per analysis_id.
-- `GEMINI_API_KEY` issues (silent fallback to Ollama) are a `src/ai_advisor.py` /
-  `src/schema_mapper.py` concern, unchanged from before — check the uvicorn terminal
-  for the `[ai_advisor] Gemini call failed...` line if answers look off.
+This project was built for academic/hackathon purposes.
