@@ -58,4 +58,4 @@ npm run dev
 
 ## License
 
-This project was built for academic/hackathon purposes.
+This repository does not include a license file yet,default copyright applies.
