@@ -32,7 +32,7 @@ Businesses often lose customers without knowing they were at risk until it's too
 1. **Login** – User logs in via JWT-secured authentication
 2. **Upload Dataset** – User uploads a CSV file
 3. **Column Mapping** – System detects columns; user confirms mapping to required fields
-4. **Preprocessing** – Missing values handled; RFM features engineered
+4. **Preprocessing** – Missing values handled; RFM features engineered(Recent,Frequent,Money)
 5. **Prediction** – ML model predicts churn probability per customer
 6. **Explainability** – SHAP explains the reasoning behind each prediction
 7. **Dashboard & Report** – Results visualized; PDF report generated
